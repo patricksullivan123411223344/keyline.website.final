@@ -17,11 +17,10 @@ export default function Navbar() {
             priority
           />
         </Link>
-
-        {/* Center - Nav Links */}
-        <div className="flex items-center space-x-10">
+ 
+       {/* <div className="flex items-center space-x-10">
           <Link
-            href="/features"
+            href="./page2/page.js"
             className="text-black hover:text-cyan-500 transition-all duration-300"
           >
             Features
@@ -38,12 +37,12 @@ export default function Navbar() {
           >
             #
           </Link>
-        </div>
-
-        {/* Right - CTA Button (optional) */}
+        </div> */}
+  
+    
         <Link
           href="/contact"
-          className=" text-black px-4 py-2 rounded-lg border border-black font-semibold hover:bg-cyan-500 transition-all duration-300"
+          className=" text-black px-4 py-2 rounded-lg border border-black font-semibold hover:bg-[#7f909a] transition-all duration-300"
         >
           Book a Call
         </Link>
